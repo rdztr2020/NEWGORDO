@@ -57,7 +57,7 @@ function MainPage() {
           </div>
         </div> */}
 
-        <div className="min-h-screen p-8">
+        <div className="min-h-screen p-10">
           <div className="relative  p-12 min-h-20 min-w-20 flex flex-col items-center justify-center">
             <h2 className="text-2xl md:text-4xl lg:text-4xl font-bold text-center text-gray-300 font-sigmar text-shadow">
               The Sauce <br /> is <br />The Boss
