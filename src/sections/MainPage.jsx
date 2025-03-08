@@ -1,5 +1,5 @@
 import React from "react";
-import headerlogo from "../assets/logotransparent2.png";
+import headerlogo from "../assets/logonobackground.png";
 import fbicon from "../assets/3dfb.png";
 import insticon from "../assets/instagram4.png";
 import emailicon from "../assets/email.png";
@@ -10,11 +10,12 @@ import bottle from "../assets/newbottlegordo.png";
 function MainPage() {
   return (
     <>
-      <div className="fixed flex items-center justify-center h-10 bg-black  z-2 text-center text-white w-screen">
-        <img src={headerlogo} alt="" className="h-8" />
+      <div className="fixed flex items-center justify-center h-10 bg-blue-500  z-2 text-center text-white font-bold font-sigmar w-screen text-shadow ">GORDO
+        <img src={headerlogo} alt="" className="h-10 ml-1 mr-1" />MIKES
+        
       </div>
 
-      <div className="fixed flex items-center justify-around  w-screen h-14 bg-black bottom-0 right-0 z-2 text-white text-center">
+      <div className="fixed flex items-center justify-around  w-screen h-14 bg-blue-500 bottom-0 right-0 z-2 text-white text-center">
         <a href="mailto:test@example.com" target="_blank">
           <img
             src={emailicon}
@@ -48,7 +49,7 @@ function MainPage() {
         </a>
       </div>
 
-      <div className="container mx-auto landscape:h-dvh min-h-screen min-w-screen bg-[url(./assets/bg-slate.png)] bg-center bg-cover bg-no-repeat">
+      <div className="container mx-auto landscape:max-w-dvh min-h-screen min-w-screen bg-[url(./assets/bg-slate.png)] bg-cover bg-no-repeat bg-center">
 
         
         <div className="min-h-screen p-6">
