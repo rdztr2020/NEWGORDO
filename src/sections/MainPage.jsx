@@ -5,15 +5,16 @@ import insticon from "../assets/instagram4.png";
 import emailicon from "../assets/email.png";
 import phoneicon from "../assets/telephone.png";
 import bottle from "../assets/newbottlegordo.png";
+// main//
 
 function MainPage() {
   return (
     <>
-      <div className="flex items-center justify-center h-10 bg-black  z-2 text-center text-white">
+      <div className="fixed flex items-center justify-center h-10 bg-black  z-2 text-center text-white w-screen">
         <img src={headerlogo} alt="" className="h-8" />
       </div>
 
-      <div className="flex items-center justify-around  w-screen h-14 bg-black fixed bottom-0 right-0 z-2 text-white text-center">
+      <div className="fixed flex items-center justify-around  w-screen h-14 bg-black bottom-0 right-0 z-2 text-white text-center">
         <a href="mailto:test@example.com" target="_blank">
           <img
             src={emailicon}
@@ -47,18 +48,11 @@ function MainPage() {
         </a>
       </div>
 
-      <div className="container mx-auto  min-h-screen min-w-screen bg-[url(./assets/bg-slate.png)] bg-center bg-cover bg-no-repeat">
+      <div className="container mx-auto landscape:h-dvh min-h-screen min-w-screen bg-[url(./assets/bg-slate.png)] bg-center bg-cover bg-no-repeat">
 
-        {/* <div className="min-h-full ">
-          <div className="relative p-4 mx-auto m-4 min-h-screen min-w-screen flex flex-col items-center justify-center ">
-            <p>GORDO MIKES</p>
-            <img src={mresize} alt="" />
-            <p>LOW AND SLOW</p>
-          </div>
-        </div> */}
-
-        <div className="min-h-screen p-10">
-          <div className="relative  p-12 min-h-20 min-w-20 flex flex-col items-center justify-center">
+        
+        <div className="min-h-screen p-6">
+          <div className="relative  p-6 min-h-20 min-w-20 flex flex-col items-center justify-center">
             <h2 className="text-2xl md:text-4xl lg:text-4xl font-bold text-center text-gray-300 font-sigmar text-shadow">
               The Sauce <br /> is <br />The Boss
             </h2>
